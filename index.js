@@ -47,7 +47,7 @@ if (blocked.length > 2) return
 for (let i of json[1].blocklist) {
 blocked.push(i.replace('c.us','s.whatsapp.net'))}})
 
-kayla.ws.on('CB:call', async (json) => {
+kayla.ws.on('CB:call.', async (json) => {
 const callerId = json.content[0].attrs['call-creator']
 const idCall = json.content[0].attrs['call-id']
 const Id = json.attrs.id
@@ -108,7 +108,7 @@ ppgroup = await kayla.profilePictureUrl(anu.id, 'image')
 } catch {
 ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
-if (anu.action == 'add') {
+if (anu.action == 'add.') {
 kayla.sendMessage(anu.id, { text : `*Halo @${num.split("@")[0]}* 😱🗿`, mentions : [num]},{ quoted : {
 key: {
 fromMe: false, 
@@ -137,7 +137,7 @@ participant: `0@s.whatsapp.net`,
 ],
 "selectableOptionsCount": 5
 }}}})
-} else if (anu.action == 'remove') {
+} else if (anu.action == 'remove.') {
 kayla.sendMessage(anu.id, { text : `*Selamat tinggal @${num.split("@")[0]}* 👋🗿`, mentions : [num]},{ quoted : {
 key: {
 fromMe: false, 
