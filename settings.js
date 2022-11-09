@@ -9,8 +9,8 @@ global.creator = "62Xxx@s.whatsapp.net"
 global.thumb = fs.readFileSync(`./image/thumb.png`)
 global.qrisdonate = fs.readFileSync(`./image/qris.jpg`)
 global.fake = `MODZ BOTZ VERSI [ 2.0.0 ]`
-global.packname = `©`
-global.author = `yntkts`
+global.packname = ``
+global.author = `×͜× ▭▬▭▬▭▬ 👑 ▭▬▭▬▭▬ ×͜×\nﾒ 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 MODZ BOTZ\nﾒ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 KIAN : 6283845409710\nﾒ 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 : MODZ BOTZ OFC\n⊟————————⊟`
 global.antilink = true
 global.antiwame = false
 global.autodltt = false
@@ -36,7 +36,7 @@ global.bapak = [
 'Wah Mantap Lu Masih Punya Bapack\nPasti Bapack Nya Kuli :v\nAwowkwokwwok\n#CandabOs',
 'Aowkwwo Disini Ada Yteam :v\nLu Yteam Bro? Awowkwowk\nSabar Bro Ga Punya Bapack\n#Camda',
 'Bjir Bapack Mu Ternyata Sudah Cemrai\nSedih Bro Gua Liatnya\nTapi Nih Tapi :v\nTetep Ae Lu Yteam Aowkwowkw Ngakak :v',
-'Jangan #cekbapak Mulu Broo :v\nKasian Yang Yteam\nNtar Tersinggung Kan\nYahahaha Hayyuk By : Ramlan ID',
+'Jangan #cekbapak Mulu Broo :v\nKasian Yang Yteam\nNtar Tersinggung Kan\nYahahaha Hayyuk By : modz botz ID',
 ]
 
 let file = require.resolve(__filename)
