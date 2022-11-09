@@ -769,7 +769,7 @@ async function obfus(query) {
         );
         const result = {
             status: 200,
-            author: `Kayla`,
+            author: `kian`,
             result: obfuscationResult.getObfuscatedCode()
         }
         resolve(result)
@@ -888,7 +888,7 @@ let buttons = [
 ]
 await kayla.sendButtonText(m.chat, buttons, `Auto Download Tiktok
 
-Title : ${atdl.title}`, `Auto Downloader By Kayla`, ftext)
+Title : ${atdl.title}`, `Auto Downloader By modz botz`, ftext)
 }
 }
 
@@ -946,13 +946,12 @@ kayla.sendImage(m.chat, buff, `${getkaydata.response}`, m)
 }
 
 const seactions = [{
-title: `👇SILAHKAN PILIH LIST MENU YANG ADA DI BAWAH INI👇`,
+title: `SILAHKAN PILIH LIST DI BAWAH`,
 rows: [
 {title: ` Semua Menu`, rowId: `${prefix}allmenu`},
 {title: ` Owner Menu`, rowId: `${prefix}ownermenu`},
 {title: ` Other menu`, rowId: `${prefix}othermenu`},
 {title: ` Download menu`, rowId: `${prefix}downloadmenu`},
-{title: ` Bug menu`, rowId: `${prefix}bugmenu`},
 {title: ` Group menu`, rowId: `${prefix}groupmenu`},
 {title: ` Fun menu`, rowId: `${prefix}funmenu`},
 {title: ` Stalker menu`, rowId: `${prefix}stalkermenu`},
@@ -989,6 +988,24 @@ kayla.sendMessage(from,{text:te,mentions: [y], },{quoted:m})
 } catch (err) {
 reply(`Belum Ada User Yang Jadibot`)
 }
+break
+case 'deleteall': case 'delall': case 'delete': case 'del': {
+    if (isBan) return reply(mess.banned)	 			
+ if (isBanChat) return reply(mess.bangc)
+ if (!isBotAdmins) return replay(mess.botadmin)
+ if (!isAdmins && !isCreator) return replay(mess.useradmin)
+ if (!m.quoted) return reply('Please mention a message baka!')
+ let { chat, fromMe, id} = m.quoted
+
+const key = {
+    remoteJid: m.chat,
+    fromMe: false,
+    id: m.quoted.id,
+    participant: m.quoted.sender
+}
+
+await Kayla.sendMessage(m.chat, { delete: key })
+ }
 break
 case 'shutdown':
 if (!itsMeKayla) return reply(mess.owner)
@@ -1029,7 +1046,7 @@ mentionedJid:[sender],
 })
 break
 case 'script': case 'sc':
-sendohlxMessage(from, { 
+sendKaylaMessage(from, { 
 text: `MASIH DALAM PROSES\nJANGAN LUPA SUBSCRIBE YA https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`,
 mentions:[sender],
 contextInfo:{
@@ -1048,7 +1065,7 @@ mentionedJid:[sender],
 })
 break
 case 'premium': case 'sewa': case 'buypremium': case 'sewabot':
-sendohlxMessage(from, { 
+sendKaylaMessage(from, { 
 text: `╭━━━━「 𝗦𝗘𝗪𝗔 」
 ┊⫹⫺ *Hemat:* _10k/grup (1 Minggu)_
 ┊⫹⫺ *Normal:* _20k/grup (1 bulan)_                                         
@@ -1134,25 +1151,6 @@ break
 case 'downloadmenu':
 sendKaylaMessage(from, { 
 text: `Hai Kak @${sender.split("@")[0]}\n\n${downloadmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": fake, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
-"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt'
-}
-}
-})
-break
-case 'bugmenu':
-sendKaylaMessage(from, { 
-text: `Hai Kak @${sender.split("@")[0]}\n\n${bugmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
