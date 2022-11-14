@@ -1007,9 +1007,51 @@ case 'menu':{
 const tyds = await kayla.sendMessage(from, buttonLocnya, { quoted : m })
 }
 break
-case 'mlist':{
-const tyds = await kayla.sendMessage(from, seactions, { quoted : m })
+case 'mlist': case 'listmenu':
+sendKaylaMessage(from, { 
+text: `
+≻───── 𝗟𝗶𝘀𝘁 𝗠𝗲𝗻𝘂─────≺
+
+  ╠━━━━━━━━『 𝘔𝘰𝘥𝘻 𝘝𝘪𝘱 』
+  ╠━Semua Menu: ${prefix}allmenu}
+  ╠━Owner Menu: ${prefix}ownermenu}
+  ╠━Other menu: ${prefix}othermenu}
+  ╠━Download menu: ${prefix}downloadmenu}
+  ╠━Group menu: ${prefix}groupmenu}
+  ╠━Fun menu: ${prefix}funmenu}
+  ╠━Stalker menu: ${prefix}stalkermenu}
+  ╠━Foto menu: ${prefix}randfotomenu}
+  ╠━Video menu: ${prefix}randvideomenu}
+  ╠━Text pro menu: ${prefix}textpromenu}
+  ╠━Photo oxy menu: ${prefix}photooxymenu}
+  ╠━Ephoto menu: ${prefix}ephoto360menu}
+  ╠━Cerpen menu: ${prefix}cerpenmenu}
+  ╠━━━━━━━━━ೄྀ𝙼𝚘𝚍𝚣 𝙱𝚘𝚝𝚣☭
+
+📌Note Jangan spam Ya
+
+🌹𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤
+𝙊𝙧𝙩𝙪 𝙂𝙬
+𝙆𝙞𝙖𝙣
+𝙈𝙤𝙙𝙯 𝙗𝙤𝙩𝙯
+𝙤𝙝𝙡𝙭 𝙗𝙤𝙩
+𝙠𝙖𝙮𝙡𝙖 𝙗𝙤𝙩
+𝙙𝙖𝙣 𝙨𝙚𝙢𝙪𝙖`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": false,
+"title": '❏𓆩LIST MENU MODZ BOTZ𓆪❏ ', 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": ppnyauser,
+"mediaUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt',
+"sourceUrl": 'https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt0'
 }
+}
+})
 break
 case 'allmenu':
 sendKaylaMessage(from, { 
