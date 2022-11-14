@@ -1,4 +1,4 @@
-require('./settings')
+yrequire('./settings')
 require('./lib/funclist')
 require('./lib/listmenu')
 const { modul } = require('./module');
@@ -990,12 +990,10 @@ reply(`Belum Ada User Yang Jadibot`)
 }
 break
 case 'deleteall': case 'delall': case 'delete': case 'del': {
-    if (isBan) return reply(mess.banned)	 			
- if (isBanChat) return reply(mess.bangc)
- if (!isBotAdmins) return replay(mess.botadmin)
- if (!isAdmins && !isCreator) return replay(mess.useradmin)
- if (!m.quoted) return reply('Please mention a message baka!')
- let { chat, fromMe, id} = m.quoted
+if (!m.isGroup) return reply(mess.group)
+if (!isAdmins && !itsMeKayla) return reply(mess.admin)
+if (!m.quoted) return reply('Balas Pesan Yang Ingin Di hapus')
+let { chat, fromMe, id} = m.quoted
 
 const key = {
     remoteJid: m.chat,
@@ -1023,7 +1021,6 @@ kayla.sendMessage(from, { text : `Hai Kak @${sender.split("@")[0]}, Nih Owner Ku
 break
 case 'menu':{
 const tyds = await kayla.sendMessage(from, buttonLocnya, { quoted : m })
-kayla.sendMessage(from, listMenuMessage, { quoted: tyds })
 }
 break
 case 'allmenu':
