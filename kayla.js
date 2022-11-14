@@ -1013,19 +1013,19 @@ text: `
 ≻───── 𝗟𝗶𝘀𝘁 𝗠𝗲𝗻𝘂─────≺
 
   ╠━━━━━━━━『 𝘔𝘰𝘥𝘻 𝘝𝘪𝘱 』
-  ╠━Semua Menu: ${prefix}allmenu}
-  ╠━Owner Menu: ${prefix}ownermenu}
-  ╠━Other menu: ${prefix}othermenu}
-  ╠━Download menu: ${prefix}downloadmenu}
-  ╠━Group menu: ${prefix}groupmenu}
-  ╠━Fun menu: ${prefix}funmenu}
-  ╠━Stalker menu: ${prefix}stalkermenu}
-  ╠━Foto menu: ${prefix}randfotomenu}
-  ╠━Video menu: ${prefix}randvideomenu}
-  ╠━Text pro menu: ${prefix}textpromenu}
-  ╠━Photo oxy menu: ${prefix}photooxymenu}
-  ╠━Ephoto menu: ${prefix}ephoto360menu}
-  ╠━Cerpen menu: ${prefix}cerpenmenu}
+  ╠━Semua Menu: ${prefix}allmenu
+  ╠━Owner Menu: ${prefix}ownermenu
+  ╠━Other menu: ${prefix}othermenu
+  ╠━Download menu: ${prefix}downloadmenu
+  ╠━Group menu: ${prefix}groupmenu
+  ╠━Fun menu: ${prefix}funmenu
+  ╠━Stalker menu: ${prefix}stalkermenu
+  ╠━Foto menu: ${prefix}randfotomenu
+  ╠━Video menu: ${prefix}randvideomenu
+  ╠━Text pro menu: ${prefix}textpromenu
+  ╠━Photo oxy menu: ${prefix}photooxymenu
+  ╠━Ephoto menu: ${prefix}ephoto360menu
+  ╠━Cerpen menu: ${prefix}cerpenmenu
   ╠━━━━━━━━━ೄྀ𝙼𝚘𝚍𝚣 𝙱𝚘𝚝𝚣☭
 
 📌Note Jangan spam Ya
