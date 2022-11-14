@@ -537,8 +537,8 @@ const mark = "0@s.whatsapp.net"
 const timestamp = speed()
 const latensi = speed() - timestamp
 const butlocNye = [
-{buttonId: `${prefix}owner`, buttonText: {displayText: 'OWNER'}, type: 1},
-{buttonId: `${prefix}sewabot`, buttonText: {displayText: 'PREMIUM'}, type: 1}
+{buttonId: `${prefix}mlist`, buttonText: {displayText: 'LIST MENU'}, type: 1},
+{buttonId: `${prefix}sewabot`, buttonText: {displayText: 'HARGA SEWA'}, type: 1}
 ]
 const buttonLocnya = {
 location: { jpegThumbnail: ppnyauser } ,
@@ -555,9 +555,9 @@ Status : ${itsMeKayla ? 'Owner' : 'User'}
 Status Premium : ${isPrem ? 'Premium User' : 'Free User'}
 Runtime Bot : ${runtime(process.uptime())}
 Speed Bot : ${latensi.toFixed(4)} 𝘋𝘦𝘵𝘪𝘬
-Otw Tahun Baru : ${jhari} 𝑯𝒂𝒓𝒊 ${jjam} 𝑱𝒂𝒎 ${jmenit} 𝑴𝒆𝒏𝒊𝒕 ${jdetik} 𝑫𝒆𝒕𝒊𝒌
-Otw Idul Fitri : ${hahari} 𝑯𝒂𝒓𝒊 ${hajam} 𝑱𝒂𝒎 ${hamenit} 𝑴𝒆𝒏𝒊𝒕 ${hadetik} 𝑫𝒆𝒕𝒊𝒌
-Otw Idul Adha : ${hihari} 𝑯𝒂𝒓𝒊 ${hijam} 𝑱𝒂𝒎 ${himenit} 𝑴𝒆𝒏𝒊𝒕 ${hidetik} 𝑫𝒆𝒕𝒊?
+Otw Tahun Baru : ${jhari} Hari ${jjam} Jam ${jmenit} Menit ${jdetik} Detik
+Otw Idul Fitri : ${hahari} Hari ${hajam} Jam ${hamenit} Menit ${hadetik} Detik
+Otw Idul Adha : ${hihari} Hari ${hijam} Jam ${himenit} Menit ${hidetik} Detik
 `,
 mentions : [sender, botzkayla, mark],
 buttons: butlocNye,
@@ -987,22 +987,6 @@ te += " × Name : " + i.name + "\n\n"
 kayla.sendMessage(from,{text:te,mentions: [y], },{quoted:m})
 } catch (err) {
 reply(`Belum Ada User Yang Jadibot`)
-}
-break
-case 'deleteall': case 'delall': case 'delete': case 'del': {
-if (!m.isGroup) return reply(mess.group)
-if (!isAdmins && !itsMeKayla) return reply(mess.admin)
-if (!m.quoted) return reply('Balas Pesan Yang Ingin Di hapus')
-let { chat, fromMe, id} = m.quoted
-
-const key = {
-    remoteJid: m.chat,
-    fromMe: false,
-    id: m.quoted.id,
-    participant: m.quoted.sender
-}
-
-await Kayla.sendMessage(m.chat, { delete: key })
  }
 break
 case 'shutdown':
@@ -1021,6 +1005,10 @@ kayla.sendMessage(from, { text : `Hai Kak @${sender.split("@")[0]}, Nih Owner Ku
 break
 case 'menu':{
 const tyds = await kayla.sendMessage(from, buttonLocnya, { quoted : m })
+}
+break
+case 'mlist':{
+const tyds = await kayla.sendMessage(from, seactions, { quoted : m })
 }
 break
 case 'allmenu':
