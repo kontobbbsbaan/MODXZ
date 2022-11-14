@@ -1,4 +1,4 @@
-yrequire('./settings')
+require('./settings')
 require('./lib/funclist')
 require('./lib/listmenu')
 const { modul } = require('./module');
