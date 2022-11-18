@@ -1010,9 +1010,9 @@ text: `
   ╠━: ${prefix}groupmenu
   ╠━: ${prefix}funmenu
   ╠━: ${prefix}stalkermenu
-  ╠━: Foto menu: ${prefix}randfotomenu
+  ╠━: ${prefix}randfotomenu
   ╠━: ${prefix}randvideomenu
-  ╠━: Text pro menu: ${prefix}textpromenu
+  ╠━: ${prefix}textpromenu
   ╠━: ${prefix}photooxymenu
   ╠━: ${prefix}ephoto360menu
   ╠━: ${prefix}cerpenmenu
